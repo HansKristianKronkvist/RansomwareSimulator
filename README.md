@@ -17,6 +17,8 @@ Decrypt.py which simulates the victim receiving the key:
 3. Removes the ransom note
 
 To run the simulation you'll need the cryptography package. If you don't already have it you need to:
+```
 pip install cryptography
+```
 
 Remember! this simulation is only meant to show the basics of a ransomware attack. In a real world scenario the attacker would never save the ransom.key locally, but on the attacker's C2 server.
